@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%0.2f\n" $BIN
+echo {0..9}.{10..99} | tr ' ' '\n' | shuf -n 1 | head -n 1
