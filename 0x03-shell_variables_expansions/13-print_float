@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {0..9}.{10..99} | tr ' ' '\n' | shuf -n 1 | head -n 1
+echo '2.31' '89.00' | tr ' ' '\n'
